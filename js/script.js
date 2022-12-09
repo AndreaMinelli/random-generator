@@ -13,3 +13,18 @@ const userBoxNumber = document.getElementById('box-number');
 const userMin = document.getElementById('min-number');
 const userMax = document.getElementById('max-number');
 const generate = document.getElementById('generate');
+
+//Prendo i valori inseriti dall'utente
+
+generate.addEventListener('click', function () {
+    const boxNumber = parseInt(userBoxNumber.value.trim());
+    const min = parseInt(userMin.value.trim());
+    const max = parseInt(userMax.value.trim());
+
+    //Validazione dati inseriti
+    if (isNaN(boxNumber) || isNaN(min) || isNaN(max)) {
+        alert('Hai inserito valori non validi!');
+        return;
+    }
+
+});
