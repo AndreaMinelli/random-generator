@@ -29,3 +29,17 @@ button {
     border: 2px solid black;
     border-radius: 1rem;
 }
+
+/* Colonne generate */
+
+#generated .col {
+    height: 60px;
+}
+
+.bg-red {
+    background-color: rgb(255, 108, 108);
+}
+
+.bg-green {
+    background-color: rgb(48, 178, 2);
+}
