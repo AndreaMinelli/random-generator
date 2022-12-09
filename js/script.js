@@ -32,7 +32,7 @@ generate.addEventListener('click', function () {
     for (let i = 1; i <= boxNumber; i++) {
         //Creo la colonna
         const col = document.createElement('div');
-        col.classList.add('col', 'd-flex', 'justify-content-center');
+        col.classList.add('col');
         //Creo elemento contenitore di number
         const numberContain = document.createElement('p');
         numberContain.classList.add('d-flex', 'justify-content-center', 'align-items-center', 'h-100', 'w-100');
